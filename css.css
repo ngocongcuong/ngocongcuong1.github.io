@@ -1,0 +1,51 @@
+.container{
+	background-color: whitesmoke;
+}
+.banner{
+width: 100%;
+height: 450px;
+overflow: hidden;
+display: block;
+box-sizing: border-box;
+margin: 0 auto;
+	
+}
+.onlinegiare{
+	color: red;
+}
+.gia{
+	font-size: 15pt;
+	font-weight: bold;
+	color: red;
+}
+.gt{
+	display: inline-block;
+	box-sizing: border-box;
+	position: absolute;
+}
+#gt{
+	display: inline-block;
+	box-sizing: border-box;
+	position: absolute;
+	top: 7px;
+}
+p{
+	padding-top: 20px;
+}
+#dk{
+	text-align: center;
+}
+.card{
+overflow: hidden;
+}
+.sale-sticky{
+	color: white;
+	background: #f90;
+	display: block;
+	text-align: center;
+	width: 200px;
+	position: absolute;
+	top: 8px;
+	right: -50px;
+	transform: rotate(45deg);
+}

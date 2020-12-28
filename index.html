@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thế giới di động</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<nav class="nav nav-pills nav-justified">
+			<a href="#" class="nav-link"><i class="fas fa-mobile"></i>Điện thoại</a>
+			<a href="#" class="nav-link"><i class="fas fa-laptop"></i>Laptop</a>
+			<a href="#" class="nav-link"><i class="fas fa-tablet"></i>Table</a>
+			<a href="#" class="nav-link"><i class="fas fa-headphones"></i>Phụ kiện</a>
+			<a href="#" class="nav-link"><i class="far fa-clock"></i>Đồng hồ</a>
+			<a href="#" class="nav-link"><i class="far fa-clock"></i>Watch</a>
+			<a href="#" class="nav-link"><i class="fas fa-desktop"></i>PC,máy in</a>
+			 <form class="form-inline">
+	    		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	    		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			<form class="form-inline">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#delete0" type="button">Đăng ký mới</button>
+			</form>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="row banner">
+			<div id="slider" class="carousel slide" data-ride="carousel" style="width: 100%;">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" style="width: 100%" src="banner/1.png" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" style="width: 100%" src="banner/2.png" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" style="width: 100%" src="banner/3.png" alt="Third slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="card-group">
+	  <div class="card">
+	    <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Iphone 12 mini 64GB</h5>
+	      <p class="card-text"><span class="gia">19.490.000<sup><u>đ</u></sup></span> <s>21.990.000</s><sup><u>đ</u></sup> <span class="onlinegiare">-11%</span></p>
+	    </div>
+	    <div class="card-footer">
+	      <button class="btn btn-primary"><i class="fas fa-cart-arrow-down"></i></button>
+	      <button class="btn btn-primary" data-toggle="modal" data-target="#xemthem1" >Xem thêm</button>
+			<div class="modal" id="xemthem1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Thông số chi tiết sản phẩm</h4>
+							<button type="button" class="close" data-dimiss="modal"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							<div class="card" style="width: 25rem;">
+								<img src="img/2.jpg" class="img-thumbnail">
+								<div class="card-body">
+									<h5 class="card-title">Iphone 12 mini 64GB</h5><p class="onlinegiare">online giá rẻ</p>
+									<p><span class="gia">19.490.000<sup><u>đ</u></sup></span> <s>21.990.000</s><sup><u>đ</u></sup> <span class="onlinegiare">-11%</span></p>
+									<p>Màn hình:	OLED, 6.1", Super Retina XDR
+									Hệ điều hành:	iOS 14
+									Camera sau:	2 camera 12 MP
+									Camera trước:	12 MP
+									CPU:	Apple A14 Bionic 6 nhân
+									RAM:	4 GB
+									Bộ nhớ trong:	64 GB
+									Thẻ SIM:
+									1 Nano SIM & 1 eSIM, Hỗ trợ 5G
+									HOTSIM VNMB Siêu sim (5GB/ngày)
+									Dung lượng pin:	2815 mAh, có sạc nhanh</p>
+								</div>
+							</div>	
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-success">Mua ngay</button>
+						</div>
+					</div>
+						</div>
+			</div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      <h3 class="sale-sticky">&emsp;Sale</h3>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      <h3 class="sale-sticky">&emsp;Sale</h3>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      <h3 class="sale-sticky">&emsp;Sale</h3>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+
+	</div>
+	</div>
+	<div class="modal" id="delete0">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">xoa</h4>
+							<button type="button" class="close" data-dimiss="modal"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+						<h1>Dang ky</h1>
+						<div class="form-group">
+							<div class="form-row">
+								<div class="col">
+									<label>Ten</label>
+									<input type="text" class="form-control" placeholder="nhap ten" name="">
+								</div>
+								<div class="col">
+									<label>Ho</label>
+									<input type="text" class="form-control" placeholder="nhap ho" name="">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Email</label>
+							<input type="gmail" class="form-control" placeholder="nhap email" name="">
+						</div>
+						<div class="form-group">
+							<label>Mat khau</label>
+							<input type="password" class="form-control" placeholder="Mat khau moi" name="">
+						</div>
+						<label>Ngay sinh</label>
+						<div class="form-group">
+							<div>
+								<div class="form-row">
+									<div class="col">
+										<select class="form-control">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+										</select>
+									</div>
+									<div class="col">
+										<select class="form-control">
+											<option>thang 1</option>
+											<option>thang 2</option>
+											<option>thang 3</option>
+											<option>thang 4</option>
+											<option>thang 5</option>
+											<option>thang 6</option>
+											<option>thang 7</option>
+											<option>thang 8</option>
+										</select>
+									</div>
+									<div class="col">
+										<select class="form-control">
+											<option>2020</option>
+											<option>2019</option>
+											<option>2018</option>
+											<option>2017</option>
+											<option>2016</option>
+											<option>2015</option>
+											<option>2014</option>
+											<option>2013</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<label>Gioi tinh</label>
+						<div class="form-group">
+							<div class="form-row">
+								<div class="col">
+									<label class="gt" for="sex">Nam</label>
+									<input id="gt" class="form-control" type="radio" name="sex">
+								</div>
+								<div class="col">
+									<label class="gt" for="sex">Nu</label>
+									<input id="gt" class="form-control" type="radio" name="sex">
+								</div>
+								<div class="col">
+									<label class="gt" for="sex">Tuy chinh</label>
+									<input id="gt" type="radio" class="form-control" name="sex">
+								</div>
+							</div>
+						</div>
+						<p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách dữ liệu và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</p>
+						<div class="form-group" id="dk">
+							<button type="button" class="btn btn-success">Dang ky</button>
+						</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-success">Ok</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+</div>
+
+<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="popper.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
